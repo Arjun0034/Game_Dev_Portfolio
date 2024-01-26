@@ -1,0 +1,126 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.logo {
+    margin: 15;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #bbb;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-bg-dark {
+    background-color: #111;
+    color: #fff;
+}
+
+.section-bg-medium {
+    background-color: #222;
+    color: #fff;
+}
+
+
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-info {
+    text-align: left;
+    margin-right: 350px; /* Add some margin between profile info and photo */
+}
+
+.profile-photo {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 10px; /* Add a slight border radius for a rounded look */
+}
+
+
+.projects-grid {
+    display: flex;
+    flex-wrap: auto;
+    justify-content: flex-start; /* Align projects to the start of the container */
+    padding: 0 20px; /* Adjust the padding as needed for space from the screen edge */
+    column-gap: 250px;
+}
+
+.project {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 30px; /* Adjust the right margin for a gap between projects */
+ 
+}
+
+
+
+
+.download-link {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
